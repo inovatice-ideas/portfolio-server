@@ -9,7 +9,6 @@ import blogRoutes from './routes/blogRoutes.js';
 import publicationRoutes from './routes/publicationRoutes.js';
 import bioRoutes from './routes/bioRoutes.js';
 import experienceRoutes from './routes/experienceRoutes.js';
-import bioDetailsRoutes from './routes/bioDetailsRoutes.js';
 import cvRoutes from './routes/cvRoutes.js';
 
 dotenv.config();
@@ -27,7 +26,6 @@ app.use('/api/blogs', blogRoutes);
 app.use('/api/publications', publicationRoutes);
 app.use('/api/bio', bioRoutes);
 app.use('/api/experiences', experienceRoutes);
-app.use('/api/bioDetails', bioDetailsRoutes);
 app.use('/api/cv', cvRoutes);
 
 // Root route for browser testing
